@@ -1,0 +1,19 @@
+{
+  "name": "bhlog",
+  "version": "0.0.1",
+  "description": "bh blog &amp; portfolio",
+  "main": "index.js",
+  "authors": {
+    "name": "bhkim",
+    "email": "byungho222@gmail.com"
+  },
+  "repository": "/bhlog",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
