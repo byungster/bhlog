@@ -1,7 +1,6 @@
 {
   "name": "bhlog",
   "version": "0.0.1",
-  "description": "bh blog &amp; portfolio",
   "main": "index.js",
   "authors": {
     "name": "bhkim",
@@ -9,11 +8,12 @@
   },
   "repository": "/bhlog",
   "scripts": {
-    "dev": "vuepress dev src",
+    "dev": "vuepress dev src --temp .temp",
     "build": "vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.5.3",
+    "watchpack": "^1.6.1"
   }
 }
